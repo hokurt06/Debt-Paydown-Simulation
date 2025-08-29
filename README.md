@@ -63,10 +63,6 @@ Windows (PowerShell or CMD):
   - `debt_history.csv` — a CSV log of debt values across the 50-year simulation
   - `debt_projection.png` — a line chart showing the trajectory of debt payoff  
 
-Expected Output:
-
-![Debt Projection](debt_projection.png)
-
 - The ENIAC model produces numerical output directly from the simulator.  
   - Watch the accumulator holding the running total (A19 in this program).  
   - Negative values will appear in **10-digit complement form** (e.g., `9999999932` = –68).  
