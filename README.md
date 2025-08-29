@@ -40,6 +40,8 @@ python modern_debt_sim.py
 Outputs created in repo root:
 - debt_history.csv
 - debt_projection.png
+```
 
-2) Run the ENIAC model
+### 2) Run the ENIAC model
+Follow README.md instructions [here]([url](https://github.com/blstuart/eniac-simulator/tree/master)) on how to download the Go-based ENIAC Simulator.
 
