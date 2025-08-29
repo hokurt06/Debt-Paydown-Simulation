@@ -20,9 +20,26 @@ This project, developed under the mentorship of **Dr. Brian Stuart** and using h
 - **Go-based ENIAC Simulator by Dr. Brian Stuart** 
 
 ## Project Structure
-## Project Structure
 /debtsim  
 &nbsp;&nbsp;└── /eniacappr.e  
 &nbsp;&nbsp;└── /modernappr.py
 
+
+## Getting Started
+
+### 1) Run the modern Python model
+```bash
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+# macOS/Linux:
+. .venv/bin/activate
+
+python -m pip install matplotlib
+python modern_debt_sim.py
+
+Outputs created in repo root:
+- debt_history.csv
+- debt_projection.png
+
+2) Run the ENIAC model
 
