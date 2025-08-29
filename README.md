@@ -44,4 +44,5 @@ Outputs created in repo root:
 
 ### 2) Run the ENIAC model
 Follow the [README.md instructions](https://github.com/blstuart/eniac-simulator/blob/master/README.md) on how to download the Go-based ENIAC Simulator.
-
+Copy eniaccappr.e into the eniac-simulator-master/programs directory and switch to the main directory. 
+Run src/eniac eniacappr.e. Follow documentation in ./doc to navigate pulsing.
