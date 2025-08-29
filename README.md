@@ -24,3 +24,7 @@ This project, developed under the mentorship of **Dr. Brian Stuart** and using h
  &nbsp;&nbsp;└── /eniacappr.e 
  &nbsp;&nbsp;└── /modernappr.py 
 
+/ # repo root
+├─ README.md # this file
+├─ modern_debt_sim.py
+└─ eniac_subtract_68x50.e # ENIAC patch (copy from this README)
