@@ -20,11 +20,15 @@ This project, developed under the mentorship of **Dr. Brian Stuart** and using h
 - **Go-based ENIAC Simulator by Dr. Brian Stuart** 
 
 ## Project Structure
-/debtsim 
- &nbsp;&nbsp;└── /eniacappr.e 
- &nbsp;&nbsp;└── /modernappr.py 
-
-/ # repo root
-├─ README.md # this file
-├─ modern_debt_sim.py
-└─ eniac_subtract_68x50.e # ENIAC patch (copy from this README)
+## Project Structure
+/app  
+&nbsp;&nbsp;└── /tabs  
+&nbsp;&nbsp;&nbsp;&nbsp;├── academic.tsx  
+&nbsp;&nbsp;&nbsp;&nbsp;├── personal.tsx  
+&nbsp;&nbsp;&nbsp;&nbsp;├── activity.tsx  
+&nbsp;&nbsp;&nbsp;&nbsp;├── inbox.tsx  
+&nbsp;&nbsp;&nbsp;&nbsp;├── schedule.tsx  
+&nbsp;&nbsp;&nbsp;&nbsp;└── _layout.tsx  
+/hooks  
+&nbsp;&nbsp;└── themeStore.ts  
+...  
