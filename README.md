@@ -57,3 +57,37 @@ Windows (PowerShell or CMD):
 .\src\eniac.exe programs\eniaccappr.e
 ```
 3. Use the documentation in ./doc/ (within the simulator repo) to navigate initiating and pulsing (e.g., issuing the initial pulse, stepping the Master Programmer, viewing accumulator outputs).
+
+## Results
+- The Python model produces:
+  - `debt_history.csv` — a CSV log of debt values across the 50-year simulation
+  - `debt_projection.png` — a line chart showing the trajectory of debt payoff  
+
+Example Output:
+
+![Debt Projection](debt_projection.png)
+
+- The ENIAC model produces numerical output directly from the simulator.  
+  - Watch the accumulator holding the running total (A19 in this program).  
+  - Negative values will appear in **10-digit complement form** (e.g., `9999999932` = –68).  
+  - After 50 iterations, the final result reflects the accumulated subtraction.
+
+---
+
+## Notes on ENIAC Simulation
+- **Data trunks** carry numerical values between units.  
+- **Program trunks** carry control pulses that tell units when to perform operations.  
+- The **Master Programmer** is configured here to repeat the subtraction loop 50 times automatically.  
+- Accumulator A19 stores the running result, while Accumulator A20 holds the constant to subtract.  
+
+---
+
+## Acknowledgments
+- **Dr. Brian Stuart** – for the ENIAC simulator and mentorship on historic computing.  
+- The ENIAC development team (University of Pennsylvania, 1940s) for the original architecture.  
+
+---
+
+## License
+MIT License – free to use, adapt, and share.
+
