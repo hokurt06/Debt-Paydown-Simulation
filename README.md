@@ -43,5 +43,5 @@ Outputs created in repo root:
 ```
 
 ### 2) Run the ENIAC model
-Follow README.md instructions [here]([url](https://github.com/blstuart/eniac-simulator/blob/master/README.md)) on how to download the Go-based ENIAC Simulator.
+Follow the [README.md instructions](https://github.com/blstuart/eniac-simulator/blob/master/README.md) on how to download the Go-based ENIAC Simulator.
 
