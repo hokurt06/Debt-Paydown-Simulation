@@ -15,9 +15,11 @@ This project, developed under the mentorship of **Dr. Brian Stuart** and using h
   b. Use of two accumulators and the Master Programmer to automate 50 iterations of the subtraction process  
   c. Output of intermediate and final results showing the simulated trajectory of national debt paydown  
 
-
 ## Tech Stack
 - **Python 3.11+**, Matplotlib (for plotting)
-- **ENIAC simulator** (Accumulator, Constant Transmitter, Master Programmer; load the patch and run)
+- **Go-based ENIAC Simulator by Dr. Brian Stuart** 
 
 ## Project Structure
+/debtsim
+&nbsp;&nbsp;└── /eniacappr.e
+&nbsp;&nbsp;└── /modernappr.py
