@@ -20,6 +20,7 @@ This project, developed under the mentorship of **Dr. Brian Stuart** and using h
 - **Go-based ENIAC Simulator by Dr. Brian Stuart** 
 
 ## Project Structure
-/debtsim
-&nbsp;&nbsp;└── /eniacappr.e
-&nbsp;&nbsp;└── /modernappr.py
+/debtsim 
+&nbsp;&nbsp;└── /eniacappr.e 
+&nbsp;&nbsp;└── /modernappr.py 
+
