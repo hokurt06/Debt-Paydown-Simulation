@@ -43,6 +43,16 @@ Outputs created in repo root:
 ```
 
 ### 2) Run the ENIAC model
-Follow the [README.md instructions](https://github.com/blstuart/eniac-simulator/blob/master/README.md) on how to download the Go-based ENIAC Simulator.
-Copy eniaccappr.e into the eniac-simulator-master/programs directory and switch to the main directory. 
-Run src/eniac eniacappr.e. Follow documentation in ./doc to navigate pulsing.
+Follow the [README.md instructions](https://github.com/blstuart/eniac-simulator/blob/master/README.md) on how to download and set up the Go-based ENIAC Simulator.
+1. Copy your ENIAC patch file eniaccappr.e into the simulator’s programs/ directory (e.g., eniac-simulator-master/programs/eniaccappr.e).
+2. From the simulator’s root directory, run the program:
+
+macOS/Linux:
+```bash
+./src/eniac programs/eniaccappr.e
+```
+
+Windows (PowerShell or CMD):
+```bash
+.\src\eniac.exe programs\eniaccappr.e
+```
