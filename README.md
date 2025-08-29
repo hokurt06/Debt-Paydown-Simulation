@@ -56,3 +56,4 @@ Windows (PowerShell or CMD):
 ```bash
 .\src\eniac.exe programs\eniaccappr.e
 ```
+3. Use the documentation in ./doc/ (within the simulator repo) to navigate initiating and pulsing (e.g., issuing the initial pulse, stepping the Master Programmer, viewing accumulator outputs).
