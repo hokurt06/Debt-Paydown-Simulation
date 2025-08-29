@@ -6,7 +6,7 @@ By the end of 1945, with the United States deeply involved in the Second World W
 This project, developed under the mentorship of **Dr. Brian Stuart** and using his **Go-based ENIAC simulator**, recreates the perspective of a 1940s economist attempting to simulate national debt paydown over 50 years using the ENIAC. For contrast, a modern Python-based simulation is also included, incorporating GDP growth, interest accumulation, and structured payment schedules to illustrate how the same problem might be approached with today’s tools.
 
 ## Features
-- **In the Python program:**
+- **In the Python program:**  
   a. Modern model of debt dynamics, incorporating GDP growth, interest on debt, and payments as a percentage of GDP  
   b. A line chart visualizing the remaining debt over a 50-year horizon  
 
