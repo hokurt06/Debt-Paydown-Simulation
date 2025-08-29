@@ -35,7 +35,7 @@ python -m venv .venv
 . .venv/bin/activate
 
 python -m pip install matplotlib
-python modern_debt_sim.py
+python modernappr.py
 
 Outputs created in repo root:
 - debt_history.csv
