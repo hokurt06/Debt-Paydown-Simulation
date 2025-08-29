@@ -21,6 +21,6 @@ This project, developed under the mentorship of **Dr. Brian Stuart** and using h
 
 ## Project Structure
 /debtsim 
-&nbsp;&nbsp;└── /eniacappr.e 
-&nbsp;&nbsp;└── /modernappr.py 
+ &nbsp;&nbsp;└── /eniacappr.e 
+ &nbsp;&nbsp;└── /modernappr.py 
 
