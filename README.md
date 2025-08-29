@@ -63,7 +63,7 @@ Windows (PowerShell or CMD):
   - `debt_history.csv` — a CSV log of debt values across the 50-year simulation
   - `debt_projection.png` — a line chart showing the trajectory of debt payoff  
 
-Example Output:
+Expected Output:
 
 ![Debt Projection](debt_projection.png)
 
