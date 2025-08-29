@@ -72,21 +72,15 @@ Example Output:
   - Negative values will appear in **10-digit complement form** (e.g., `9999999932` = –68).  
   - After 50 iterations, the final result reflects the accumulated subtraction.
 
----
-
 ## Notes on ENIAC Simulation
 - **Data trunks** carry numerical values between units.  
 - **Program trunks** carry control pulses that tell units when to perform operations.  
 - The **Master Programmer** is configured here to repeat the subtraction loop 50 times automatically.  
 - Accumulator A19 stores the running result, while Accumulator A20 holds the constant to subtract.  
 
----
-
 ## Acknowledgments
 - **Dr. Brian Stuart** – for the ENIAC simulator and mentorship on historic computing.  
 - The ENIAC development team (University of Pennsylvania, 1940s) for the original architecture.  
-
----
 
 ## License
 MIT License – free to use, adapt, and share.
