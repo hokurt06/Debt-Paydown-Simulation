@@ -24,9 +24,5 @@ This project, developed under the mentorship of **Dr. Brian Stuart** and using h
 /debtsim  
 &nbsp;&nbsp;└── /eniacappr.e  
 &nbsp;&nbsp;└── /modernappr.py
-&nbsp;&nbsp;&nbsp;&nbsp;├── academic.tsx  
-&nbsp;&nbsp;&nbsp;&nbsp;├── personal.tsx  
-&nbsp;&nbsp;&nbsp;&nbsp;├── activity.tsx  
-&nbsp;&nbsp;&nbsp;&nbsp;├── inbox.tsx  
-&nbsp;&nbsp;&nbsp;&nbsp;├── schedule.tsx  
-&nbsp;&nbsp;&nbsp;&nbsp;└── _layout.tsx  
+
+
